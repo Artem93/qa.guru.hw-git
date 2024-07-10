@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jul 10 16:59:21 GMT 2024","Wed Jul 10 16:59:24 GMT 2024","2409","","tests.GitRepoTests","","tests.GitRepoTests","checkIssueInHeaderByAnnotation","Проверка Issue с значением: И ишо одын. Через аннотации",""
+"passed","Wed Jul 10 16:59:24 GMT 2024","Wed Jul 10 16:59:24 GMT 2024","354","","tests.GitRepoTests","","tests.GitRepoTests","checkIssueInHeaderBySelenide","Проверка Issue с значением: test. Через selenide",""
+"passed","Wed Jul 10 16:59:24 GMT 2024","Wed Jul 10 16:59:25 GMT 2024","619","","tests.GitRepoTests","","tests.GitRepoTests","checkIssueInHeaderByStep","Проверка Issue с значением: test. Через степы",""
