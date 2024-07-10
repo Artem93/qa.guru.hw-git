@@ -22,4 +22,11 @@ jobs:
       - name: Run tests with Gradle
         env:
           SELENOID_URL: http://localhost:4444/wd/hub
-        run: ./gradlew clean test
+        run: ./gradlew test --warning-mode all
+
+      - name: Upload test report
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: test-report
+          path: build/reports/tests/test
