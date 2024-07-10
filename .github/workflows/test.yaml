@@ -1,16 +1,12 @@
 name: Test
-run-name: ${{ github.actor }} is learning GitHub Actions
 on: [ push ]
+
 jobs:
   Test:
     runs-on: ubuntu-latest
     services:
       selenoid:
         image: aerokube/selenoid:latest-release
-        options: >-
-          --name selenoid
-          --network host
-          --privileged
         ports:
           - 4444:4444
     steps:
